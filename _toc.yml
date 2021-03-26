@@ -1,0 +1,128 @@
+- file: intro
+  numbered: true
+
+- file: chapter_1/fire_simulation_lecture
+  sections:
+    - file: chapter_1/subchapters/structure_and_motivation
+    - file: chapter_1/subchapters/ias-7+cce
+- file: chapter_2/fire_modelling
+  sections: 
+    - file: chapter_2/subchapters/fire_safety_engineering
+      sections:
+        - file: chapter_2/subchapters/jbooks/jbook21
+        - file: chapter_2/subchapters/jbooks/jbook22
+    - file: chapter_2/subchapters/modelling_approaches
+    - file: chapter_2/subchapters/verification
+    - file: chapter_2/subchapters/validation
+    - file: chapter_2/subchapters/uncertainties
+- file: chapter_3/fluid_dynamics
+  sections:
+    - file: chapter_3/subchapters/fundamentals_of_fluid_dynamics
+      sections: 
+        - file: chapter_3/subchapters/jbooks/steckler_fire_experiment
+    - file: chapter_3/subchapters/turbulence_modelling
+    - file: chapter_3/subchapters/computational_fluid_dynamics
+- file: chapter_4/compartment_fires
+  sections: 
+    - file: chapter_4/subchapters/fundamentals_4
+    - file: chapter_4/subchapters/design_fires
+- file: chapter_5/thermodynamics
+  sections: 
+    - file: chapter_5/subchapters/fundamentals5
+      sections:
+        - file: chapter_5/subchapters/jbooks/jbook51
+    - file: chapter_5/subchapters/modelling5
+    - file: chapter_5/subchapters/validation_examples5
+    - file: chapter_5/subchapters/application_examples5
+- file: chapter_6/combustion
+  sections:
+    - file: chapter_6/subchapters/application_examples_6
+    - file: chapter_6/subchapters/fundamentals_6
+    - file: chapter_6/subchapters/modelling_6
+    - file: chapter_6/subchapters/validation_examples_6
+- file: chapter_7/heat_transfer
+  sections:
+    - file: chapter_7/subchapters/fundamentals_7
+    - file: chapter_7/subchapters/modelling_7
+    - file: chapter_7/subchapters/validation_examples_7
+    - file: chapter_7/subchapters/application_examples_7
+- file: chapter_8/particles_and_droplets
+  sections:
+    - file: chapter_8/subchapters/fundamentals_8
+    - file: chapter_8/subchapters/modelling_8
+    - file: chapter_8/subchapters/validation_examples_8
+    - file: chapter_8/subchapters/application_examples_8
+- file: chapter_9/pyrolysis
+  sections:
+    - file: chapter_9/subchapters/fundamentals_9
+    - file: chapter_9/subchapters/modelling_9
+    - file: chapter_9/subchapters/validation_examples_9
+    - file: chapter_9/subchapters/application_examples_9
+- file: chapter_10/fire_dynamics_simulator+smokeview
+  sections:
+    - file: chapter_10/subchapters/fds_overview
+    - file: chapter_10/subchapters/fds
+      sections:
+        - file: chapter_10/subchapters/examples/basics_fds
+        - file: chapter_10/subchapters/examples/application_example_fds_1
+        - file: chapter_10/subchapters/examples/application_example_fds_2
+    - file: chapter_10/subchapters/smv
+      sections:
+        - file: chapter_10/subchapters/examples/basics_smv
+        - file: chapter_10/subchapters/examples/application_example_smv_1
+        - file: chapter_10/subchapters/examples/application_example_smv_2
+- file: chapter_11/data_analysis
+  sections:
+    - file: chapter_11/subchapters/python
+      sections: 
+        - file: chapter_11/subchapters/examples/basics_python
+        - file: chapter_11/subchapters/examples/jupyter
+        - file: chapter_11/subchapters/examples/fdsreader_module
+    - file: chapter_11/subchapters/device_data_files
+      sections:
+        - file: chapter_11/subchapters/examples/individual
+        - file: chapter_11/subchapters/examples/post_processing
+        - file: chapter_11/subchapters/examples/visualisation
+    - file: chapter_11/subchapters/field_data_files
+      sections:
+        - file: chapter_11/subchapters/examples/slices
+        - file: chapter_11/subchapters/examples/particles
+        - file: chapter_11/subchapters/examples/volumetric_data
+- file: chapter_12/high_performance_computing
+  sections: 
+    - file: chapter_12/subchapters/automation
+      sections:
+        - file: chapter_12/subchapters/examples/automation_python
+        - file: chapter_12/subchapters/examples/input_files
+        - file: chapter_12/subchapters/examples/execution
+    - file: chapter_12/subchapters/fds_in_parallel
+      sections:
+        - file: chapter_12/subchapters/examples/basics_hpc_systems
+        - file: chapter_12/subchapters/examples/domain_decomposition
+        - file: chapter_12/subchapters/examples/benchmarking
+    - file: chapter_12/subchapters/how_tos
+      sections:
+        - file: chapter_12/subchapters/examples/jureca
+        - file: chapter_12/subchapters/examples/cobra
+- file: chapter_13/small_scale_experiment
+  sections:
+    - file: chapter_13/subchapters/experiment
+      sections: 
+        - file: chapter_13/subchapters/examples/setup
+        - file: chapter_13/subchapters/examples/measurements
+        - file: chapter_13/subchapters/examples/data
+    - file: chapter_13/subchapters/smallscaleexperiment_modelling
+      sections:
+        - file: chapter_13/subchapters/examples/assumptions
+        - file: chapter_13/subchapters/examples/fds_input_files
+        - file: chapter_13/subchapters/examples/sensitivity
+    - file: chapter_13/subchapters/smallscaleexperiment_analysis
+      sections:
+        - file: chapter_13/subchapters/examples/comparision
+        - file: chapter_13/subchapters/examples/uncertainties_13
+        - file: chapter_13/subchapters/examples/discussion
+
+
+
+
+    

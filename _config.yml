@@ -1,0 +1,6 @@
+# Book settings
+title: Fire simulation lecture
+author: CCE
+logo: fire_pic.png
+
+only_build_toc_files: true
