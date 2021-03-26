@@ -1,5 +1,6 @@
 FROM ubuntu:18.04
 
+RUN apt-get update && apt-get upgrade -y && apt-get install -y git
 # --------------- Python --------------- #
 RUN apt update && apt install python3-pip -y
 RUN ln -s /usr/bin/python3 /usr/bin/python
