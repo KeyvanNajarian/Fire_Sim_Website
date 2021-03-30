@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y git
-RUN gem update && gem install rails && gem install bundler
+# RUN gem update && gem install rails && gem install bundler
 
 # --------------- Python --------------- #
 RUN apt update && apt install python3-pip -y
