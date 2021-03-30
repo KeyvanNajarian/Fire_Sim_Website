@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y git
+RUN gem update && gem install rails && gem install bundler
 
 # --------------- Python --------------- #
 RUN apt update && apt install python3-pip -y
@@ -15,6 +16,7 @@ RUN gem install bundler -v "1.17.2"
 RUN git clone https://github.com/KeyvanNajarian/Fire_Sim_Website.git
 
 WORKDIR /FireSim_img
+RUN bundle install
 RUN bundle update jekyll-scholar
 RUN bundle update --bundler
 EXPOSE 4000
