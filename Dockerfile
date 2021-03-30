@@ -25,7 +25,8 @@ ADD Gemfile.lock APP_HOME/Gemfile.lock
 
 RUN bundle install
 
-ADD . $APP_HOME
+ADD . APP_HOME
+
 RUN bundle update jekyll-scholar
 RUN bundle update --bundler
 EXPOSE 4000
