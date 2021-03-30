@@ -14,6 +14,7 @@ RUN gem install bundler -v "1.17.2"
 
 RUN git clone https://github.com/KeyvanNajarian/Fire_Sim_Website.git
 
+WORKDIR /FireSim_img
 EXPOSE 4000
 
 # --------------- Start --------------- #
