@@ -13,19 +13,6 @@ RUN gem install jekyll
 RUN gem install bundler -v "1.17.2"
 
 RUN git clone https://github.com/KeyvanNajarian/Fire_Sim_Website.git
-WORKDIR "/Fire_Sim_Website/Build"
-RUN bundle update jekyll-scholar
-RUN bundle update --bundler
-RUN make clean
-RUN make install
-RUN make build
-
-EXPOSE 4000
-
-RUN echo "(cd /Fire_Sim_Website/ && git checkout .)" >> /start.sh
-RUN echo "(cd /Fire_Sim_Website/ && git pull)" >> /start.sh
-RUN echo "(cd /Fire_Sim_Website/Build && make clean && make install && make build)" >> /start.sh
-RUN echo "(cd /Fire_Sim_Website/Build && bundle exec jekyll serve --host 0.0.0.0)" >> /start.sh
 
 # --------------- Start --------------- #
 RUN chmod 777 /start.sh
